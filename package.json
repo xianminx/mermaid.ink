@@ -1,7 +1,7 @@
 {
   "name": "mermaid.ink",
   "version": "11.1.0",
-  "description": "https://mermain.ink",
+  "description": "https://mermaid.ink",
   "homepage": "https://github.com/jihchi/mermaid.ink#readme",
   "bugs": {
     "url": "https://github.com/jihchi/mermaid.ink/issues"
@@ -16,7 +16,7 @@
   "scripts": {
     "format": "prettier --with-node-modules --write \"{src,test}/**/*.{mjs,js,html}\" \"*.{js,cjs,mjs,md}\"",
     "install-chrome": " npx puppeteer browsers install chrome",
-    "start": "pnpm install-chrome && node src/index.js",
+    "start": "npm run install-chrome && node src/index.js",
     "test": "jest",
     "test:watch": "pnpm test --watch"
   },
